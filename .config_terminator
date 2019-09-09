@@ -1,0 +1,27 @@
+[global_config]
+  focus = system
+  window_state = fullscreen
+[keybindings]
+  close_window = F9
+  hide_window = F12
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#0c1824"
+    background_darkness = 0.83
+    background_image = None
+    background_type = transparent
+    cursor_color = "#f29718"
+    font = Ricty 13
+    foreground_color = "#e6e1cf"
+    palette = "#000000:#ff3333:#b8cc52:#e7c547:#36a3d9:#f07178:#95e6cb:#ffffff:#966d00:#ff6565:#eafe84:#fff779:#68d5ff:#ffa3aa:#c7fffd:#ffffff"
+    use_system_font = False
